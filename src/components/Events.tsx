@@ -48,8 +48,8 @@ export function FeaturesSectionDemo() {
   ];
   return (
     <div className="relative z-20 py-10 lg:py-40 max-w-7xl mx-auto">
-      <div className="px-8">
-        <h4 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl mx-auto text-center tracking-tight font-medium text-white">
+      <div className="px-8 ">
+        <h4 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl mx-auto text-center tracking-tigh font-medium text-white">
           Why join us {'?'}
         </h4>
 
@@ -58,6 +58,8 @@ export function FeaturesSectionDemo() {
           See it for yourself
         </p>
       </div>
+
+      <div className="border-t border-neutral-800 mt-10 sm:hidden"></div>
 
       <div className="relative ">
         <div className="grid grid-cols-1 lg:grid-cols-6 mt-12 xl:border rounded-md dark:border-neutral-800">
