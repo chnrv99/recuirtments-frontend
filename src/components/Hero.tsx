@@ -12,7 +12,7 @@ export function HeroScrollDemo() {
   return (
     <div className="flex flex-col overflow-hidden">
       <div>
-        <h1 className="pt-[20vh] text-3xl sm:text-3xl md:text-4xl lg:text-8xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 via-neutral-700 to-neutral-100 dark:from-neutral-800 dark:via-white dark:to-white">
+        <h1 className="pt-[20vh] text-5xl sm:text-3xl md:text-4xl lg:text-8xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 via-neutral-700 to-neutral-100 dark:from-neutral-800 dark:via-white dark:to-white">
           CYSCOM VIT<br />
         </h1>
         <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 via-neutral-100 to-neutral-50 dark:from-neutral-800 dark:via-white dark:to-white">
@@ -20,7 +20,7 @@ export function HeroScrollDemo() {
         </h1>
 
         <div className="flex justify-center items-center mx-7">
-
+          
           <TextRevealCard
             text="We make things happen"
             revealText="You can do the same "

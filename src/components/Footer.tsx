@@ -23,9 +23,9 @@ export default function Footer({ }: Props) {
                             <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Blogger</a>
                         </div>
                         <div className="flex justify-center space-y-4 flex-col mt-4">
-                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Twitter</a>
+                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">GitHub</a>
                             <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Discord</a>
-                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Medium</a>
+                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Twitter</a>
                         </div>
                     </div>
                 </div>
