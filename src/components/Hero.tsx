@@ -4,6 +4,7 @@ import { ContainerScroll } from "@/components/ui/container-scroll-animation";
 import Image from "next/image";
 import { TextRevealCard, TextRevealCardDescription, TextRevealCardTitle } from "./ui/text-reveal-card";
 import { ButtonsCard } from "@/components/ui/tailwindcss-buttons";
+import groupPhoto from '../../public/groupPhoto.jpeg'
 
 export function HeroScrollDemo() {
   return (
@@ -40,7 +41,7 @@ export function HeroScrollDemo() {
         titleComponent
       >
         <Image
-          src={`/linear.webp`}
+          src={groupPhoto}
           alt="hero"
           height={720}
           width={1400}
