@@ -4,6 +4,16 @@ import { useId } from "react";
 export function Departments() {
   return (
     <div className="py-20 lg:py-40">
+      <div className="px-8">
+        <h4 className="text-3xl lg:text-5xl lg:leading-tight max-w-5xl mx-auto text-center tracking-tight font-medium text-white">
+          Our Departments
+        </h4>
+
+        <p className="text-sm lg:text-base  max-w-2xl  my-4 mx-auto text-neutral-500 text-center font-normal dark:text-neutral-300">
+          See what we have and what can be your future
+        </p>
+      </div>
+      <br />
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-2 max-w-7xl mx-auto">
         {grid.map((feature) => (
           <div
@@ -28,12 +38,12 @@ const grid = [
   {
     title: "Development (Web-Dev and Open Source Projects)",
     description:
-      "Our applications are HIPAA and SOC2 compliant, your data is safe with us, always.",
+      "We are the backbone of the chapter for tech. From full stack website, python bots, utility tools, and open-source projects, we do it all. We are the ones who make the chapter look good and work well.",
   },
   {
     title: "Technical (CTF and Projects)",
     description:
-      "Our skilled team engages in Capture The Flag (CTF) competitions and security projects, solving puzzles and overcoming digital challenges. We’re dedicated to creating innovative solutions that enhance system security, ensuring a well-guarded digital environment.",
+      "Our skilled team engages in Capture The Flag (CTF) competitions and security projects, solving puzzles and overcoming digital challenges. We\’re dedicated to creating innovative solutions that enhance system security, ensuring a well-guarded digital environment.",
   },
   {
     title: "Design",

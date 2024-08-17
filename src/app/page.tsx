@@ -33,7 +33,7 @@ export default function Home() {
       {/* scroll */}
       <div>
         <div className="text-4xl md:text-xl lg:text-xl max-w-7xl mx-auto text-center mt-2 mb-12 relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 via-neutral-100 to-neutral-50 dark:from-neutral-800 dark:via-white dark:to-white ">
-          Our Technologies
+          The technologies we work with 
 
         </div>
         <ScrollingImages />
