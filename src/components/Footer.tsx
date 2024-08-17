@@ -1,5 +1,5 @@
 import React from 'react'
-import nextImage from '../../public/next.svg'
+import nextImage from '../../public/bw_cyscom.png'
 import Image from 'next/image'
 
 type Props = {}
@@ -16,21 +16,16 @@ export default function Footer({ }: Props) {
                         </a>
                         <div>Copyright {`©`} 2024 CYSCOM VIT</div>
                     </div>
-                    <div className="grid grid-cols-3 gap-10 items-start mt-10 md:mt-0">
+                    <div className="grid grid-cols-2 gap-10 items-start mt-10 md:mt-0">
                         <div className="flex justify-center space-y-4 flex-col mt-4">
-                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Sample1</a>
-                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Sample1</a>
-                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Sample1</a>
+                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">LinkedIn</a>
+                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Instagram</a>
+                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Blogger</a>
                         </div>
                         <div className="flex justify-center space-y-4 flex-col mt-4">
-                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Sample1</a>
-                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Sample1</a>
-                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Sample1</a>
-                        </div>
-                        <div className="flex justify-center space-y-4 flex-col mt-4">
-                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Sample1</a>
-                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Sample1</a>
-                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Sample1</a>
+                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Twitter</a>
+                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Discord</a>
+                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Medium</a>
                         </div>
                     </div>
                 </div>
