@@ -20,12 +20,13 @@ export function HeroScrollDemo() {
         </h1>
 
         <div className="flex justify-center items-center mx-7">
-          
+
           <TextRevealCard
-            text="We make things happen"
-            revealText="You can do the same "
+            text="Unleash Your Potential          "
+            revealText="With Us, Sky's the Limit                   "
           >
           </TextRevealCard>
+
 
         </div>
 

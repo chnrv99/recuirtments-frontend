@@ -31,9 +31,9 @@ export default function Home() {
       </div>
 
       {/* scroll */}
-      <div>
+      <div className=" my-32">
         <div className="text-4xl md:text-xl lg:text-xl max-w-7xl mx-auto text-center mt-2 mb-12 relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 via-neutral-100 to-neutral-50 dark:from-neutral-800 dark:via-white dark:to-white ">
-          The technologies we work with 
+          The technologies we utilize and adore
 
         </div>
         <ScrollingImages />
