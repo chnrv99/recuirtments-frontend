@@ -18,14 +18,14 @@ export default function Footer({ }: Props) {
                     </div>
                     <div className="grid grid-cols-2 gap-10 items-start mt-10 md:mt-0">
                         <div className="flex justify-center space-y-4 flex-col mt-4">
-                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">LinkedIn</a>
-                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Instagram</a>
-                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Blogger</a>
+                            <a href="https://www.linkedin.com/company/cyscomvit/" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">LinkedIn</a>
+                            <a href="https://instagram.com/cyscomvit/" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Instagram</a>
+                            <a href="https://blog.cyscomvit.com/" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Blogger</a>
                         </div>
                         <div className="flex justify-center space-y-4 flex-col mt-4">
-                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">GitHub</a>
-                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Discord</a>
-                            <a href="" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Twitter</a>
+                            <a href="https://github.com/cyscomvit/" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">GitHub</a>
+                            <a href="https://discord.gg/9RyHCQgjAv" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Discord</a>
+                            <a href="https://twitter.com/CyscomVit/" className="transition-colors hover:text-black text-muted-dark text-xs sm:text-sm">Twitter</a>
                         </div>
                     </div>
                 </div>

@@ -18,7 +18,7 @@ export function HeroScrollDemo() {
         <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 via-neutral-100 to-neutral-50 dark:from-neutral-800 dark:via-white dark:to-white">
           CyberSecurity Community of VIT
         </h1>
-
+          
         <div className="flex justify-center items-center ml-8">
 
           <TextRevealCard
