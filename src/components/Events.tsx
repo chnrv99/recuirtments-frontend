@@ -112,16 +112,16 @@ const FeatureDescription = ({ children }: { children?: React.ReactNode }) => {
 
 export const SkeletonOne = () => {
   return (
-    <div className="relative flex py-8 px-2 gap-10 h-[50vh]">
-      <div className="w-full  p-5  mx-auto  shadow-2xl group h-[50vh]">
-        <div className="flex flex-1 w-full h-[50vh] flex-col space-y-2  ">
+    <div className="relative flex py-8 px-2 gap-10 sm:h-[50vh]">
+      <div className="w-full  p-5  mx-auto  shadow-2xl group sm:h-[50vh]">
+        <div className="flex flex-1 w-full sm:h-[50vh] flex-col space-y-2  ">
           {/* TODO */}
           <Image
             src={hackOverFlow}
             alt="header"
             width={800}
             height={800}
-            className="h-[50vh] w-full aspect-square object-cover object-left-top rounded-sm"
+            className="sm:h-[50vh] w-full aspect-square object-cover object-left-top rounded-sm"
           />
         </div>
       </div>

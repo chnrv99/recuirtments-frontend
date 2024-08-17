@@ -5,26 +5,28 @@ import Image from "next/image";
 import { TextRevealCard, TextRevealCardDescription, TextRevealCardTitle } from "./ui/text-reveal-card";
 import { ButtonsCard } from "@/components/ui/tailwindcss-buttons";
 import groupPhoto from '../../public/groupPhoto.jpeg'
+import zypherGroupPhoto from '../../public/zypher_groupPhoto.jpeg'
+import photo2 from '../../public/Hackerspace.jpeg'
 
 export function HeroScrollDemo() {
   return (
     <div className="flex flex-col overflow-hidden">
       <div>
-        <h1 className=" pt-[20vh] text-8xl md:text-4xl lg:text-7xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 via-neutral-700 to-neutral-100 dark:from-neutral-800 dark:via-white dark:to-white">
+        <h1 className="pt-[20vh] text-3xl sm:text-3xl md:text-4xl lg:text-8xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 via-neutral-700 to-neutral-100 dark:from-neutral-800 dark:via-white dark:to-white">
           CYSCOM VIT<br />
-
         </h1>
-        <h1 className=" text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 via-neutral-100 to-neutral-50 dark:from-neutral-800 dark:via-white dark:to-white">
+        <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-6 relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 via-neutral-100 to-neutral-50 dark:from-neutral-800 dark:via-white dark:to-white">
           CyberSecurity Community of VIT
         </h1>
-        <div className="flex justify-center items-center">
-          <div className="mx-auto">
-            <TextRevealCard
-              text="We make things happen"
-              revealText="You can do the same "
-            >
-            </TextRevealCard>
-          </div>
+
+        <div className="flex justify-center items-center mx-7">
+
+          <TextRevealCard
+            text="We make things happen"
+            revealText="You can do the same "
+          >
+          </TextRevealCard>
+
         </div>
 
 
@@ -43,9 +45,9 @@ export function HeroScrollDemo() {
         <Image
           src={groupPhoto}
           alt="hero"
-          height={720}
-          width={1400}
-          className="mx-auto rounded-2xl object-cover h-full object-left-top"
+          height={2200}
+          width={2000}
+          className="mx-auto rounded-2xl object-cover h-full w-full object-left-top"
           draggable={false}
         />
       </ContainerScroll>
