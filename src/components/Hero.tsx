@@ -19,7 +19,7 @@ export function HeroScrollDemo() {
           CyberSecurity Community of VIT
         </h1>
 
-        <div className="flex justify-center items-center mx-7">
+        <div className="flex justify-center items-center ">
 
           <TextRevealCard
             text="Unleash Your Potential          "
